@@ -23,7 +23,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final String baseUrl = "http://192.168.81.208:8080/api/v1/customer";
+  final String baseUrl = "http://192.168.81.208:8080/api/v1/customer"; // Get this from typing this command in the CMD 'ipconfig'
   final Dio _dio = Dio();
 
   final TextEditingController _customerIdController = TextEditingController();
